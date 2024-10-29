@@ -1,0 +1,13 @@
+﻿  Field.cpp
+  Render.cpp
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Field.h(3,10): error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  Source.cpp
+  Generowanie kodu...
+  (kompilowanie pliku źródłowego „Field.cpp”)
+  
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.h(3,10): error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  (kompilowanie pliku źródłowego „Render.cpp”)
+  
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.h(3,10): error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
+  (kompilowanie pliku źródłowego „Source.cpp”)
+  

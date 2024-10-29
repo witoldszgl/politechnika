@@ -1,0 +1,65 @@
+﻿  Render.cpp
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(56,64): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(56,46): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,117): warning C4244: "argument": konwersja z "const T" do "T", możliwa utrata danych
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,117): warning C4244:         with
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,117): warning C4244:         [
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,117): warning C4244:             T=float
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,117): warning C4244:         ]
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,117): warning C4244:         and
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,117): warning C4244:         [
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,117): warning C4244:             T=int
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,117): warning C4244:         ]
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,87): warning C4244: "argument": konwersja z "const T" do "T", możliwa utrata danych
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,87): warning C4244:         with
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,87): warning C4244:         [
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,87): warning C4244:             T=float
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,87): warning C4244:         ]
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,87): warning C4244:         and
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,87): warning C4244:         [
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,87): warning C4244:             T=int
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(80,87): warning C4244:         ]
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,117): warning C4244: "argument": konwersja z "const T" do "T", możliwa utrata danych
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,117): warning C4244:         with
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,117): warning C4244:         [
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,117): warning C4244:             T=float
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,117): warning C4244:         ]
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,117): warning C4244:         and
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,117): warning C4244:         [
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,117): warning C4244:             T=int
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,117): warning C4244:         ]
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,87): warning C4244: "argument": konwersja z "const T" do "T", możliwa utrata danych
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,87): warning C4244:         with
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,87): warning C4244:         [
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,87): warning C4244:             T=float
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,87): warning C4244:         ]
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,87): warning C4244:         and
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,87): warning C4244:         [
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,87): warning C4244:             T=int
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(90,87): warning C4244:         ]
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,117): warning C4244: "argument": konwersja z "const T" do "T", możliwa utrata danych
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,117): warning C4244:         with
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,117): warning C4244:         [
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,117): warning C4244:             T=float
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,117): warning C4244:         ]
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,117): warning C4244:         and
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,117): warning C4244:         [
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,117): warning C4244:             T=int
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,117): warning C4244:         ]
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,87): warning C4244: "argument": konwersja z "const T" do "T", możliwa utrata danych
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,87): warning C4244:         with
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,87): warning C4244:         [
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,87): warning C4244:             T=float
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,87): warning C4244:         ]
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,87): warning C4244:         and
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,87): warning C4244:         [
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,87): warning C4244:             T=int
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(99,87): warning C4244:         ]
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(129,42): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Render.cpp(200,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  Trwa generowanie kodu
+  2 of 559 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Zakończono generowanie kodu
+  saperprojekt.vcxproj -> C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Release\saperprojekt.exe

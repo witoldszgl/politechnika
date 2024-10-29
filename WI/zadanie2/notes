@@ -1,0 +1,25 @@
+<?php
+    include('data.php');
+    if($_GET['cmd']=='del')
+    {
+        $post=kasuj_post($_GET['post']);
+        header("Location: index.php?temat=$_GET['topic']");
+        exit;
+    }
+    if($_GET['cmd']=='edit' and !isset($_POST['wpis']))
+    {
+        $post=czytaj_post($_GET['post']);
+    }
+    if($_GET['topic']>0)
+    {
+        //wyœwietl posty
+        $dane=czytaj_post($_GET['post']);
+        include('posty.php');
+    }
+    else
+    {
+        //wyœwietl tematy
+        $dane=czytaj_tematy();
+        include('tematy.php')
+    }
+?>

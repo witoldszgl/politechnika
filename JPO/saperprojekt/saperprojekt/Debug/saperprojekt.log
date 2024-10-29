@@ -1,0 +1,7 @@
+﻿  Source.cpp
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Source.cpp(19,51): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Source.cpp(19,51): warning C4244:         with
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Source.cpp(19,51): warning C4244:         [
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Source.cpp(19,51): warning C4244:             T=float
+C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Source.cpp(19,51): warning C4244:         ]
+  saperprojekt.vcxproj -> C:\Users\WitoldUser\Desktop\saperprojekt\saperprojekt\Debug\saperprojekt.exe

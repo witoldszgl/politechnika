@@ -1,0 +1,2 @@
+admin:-:Administrator:-:21232f297a57a5a743894a0e4a801fc3:-:1
+qwe:-:QWE:-:76d80224611fc919a5d54f0ff9fba446:-:0

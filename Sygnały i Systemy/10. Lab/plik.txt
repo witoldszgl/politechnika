@@ -1,0 +1,45 @@
+def designFilter(charType =  'butt',type = 'low', wp = 3,ws = 8, gpass = 3, gstop = 80, w_min =-2, w_max=2) : 
+    #find order and design filter
+    if charType == 'butt' : 
+         n, w_n_butt = scipy.signal.buttord (wp,ws,gpass,gstop, analog=True)
+         B,A =scipy.signal.butter(N = n,Wn = wp, btype=type, analog=True, output='ba') 
+    elif charType == 'cheby1' : 
+        n, w_n_butt = scipy.signal.cheb1ord (wp,ws,gpass,gstop, analog=True)
+        B, A = scipy.signal.cheby1(N = n,rp=gpass ,Wn = wp, btype=type, analog=True, output='ba') 
+    elif charType == 'cheby2' : 
+        n, w_n_butt = scipy.signal.cheb2ord (wp,ws,gpass,gstop, analog=True)
+        B, A = scipy.signal.cheby2(N = n,rs=gstop ,Wn = ws, btype=type, analog=True, output='ba') 
+    elif charType == 'ellip' : 
+        n, w_n_butt = scipy.signal.ellipord (wp,ws,gpass,gstop, analog=True)
+        B, A = scipy.signal.ellip(N = n,rp=gpass,rs=gstop  ,Wn = wp, btype=type, analog=True, output='ba') 
+    else :  
+        print("Type not found!!!")
+        return
+    #display characteristics
+    w = np.logspace(w_min,w_max,10000)
+    H = scipy.signal.freqs(B, A, w)[1]
+    M = 20*np.log10(np.abs(H,dtype = np.double))
+
+plt.semilogx(w, M,label = 'charType' + ", rząd filtru: %d"%(n))
+plt.title("charakterystyka amplitudowa")
+plt.xlabel("ω [rad/s]")
+plt.ylabel("20log10(|H(jω)|)   [dB]")
+plt.grid(which='both', axis='both')
+if type == 'low' or type == 'lowpass': 
+    plt.fill([w[0], w[0],  wp   ,  wp   ], [np.min(M)-10, -gpass, -gpass, np.min(M)-10], '0.5', lw=0) # pass
+    plt.fill([ws  , ws  ,  w[-1],  w[-1]], [np.max(M)+10, -gstop, -gstop, np.max(M)+10], '0.5', lw=0) # stop
+if type == 'high' or type == 'highpass': 
+    plt.fill([w[0], w[0],  ws   ,  ws   ], [np.max(M)+10, -gstop, -gstop, np.max(M)+10], '0.5', lw=0) # stop
+    plt.fill([wp  , wp  ,  w[-1],  w[-1]], [np.min(M)-10, -gpass, -gpass, np.min(M)-10], '0.5', lw=0) # pass
+if type == 'bandpass': 
+    plt.fill([w[0] ,  w[0],  ws[0], ws[0]], [np.max(M)+10, -gstop, -gstop, np.max(M)+10], '0.5', lw=0) # stop
+    plt.fill([wp[0], wp[0],  wp[1], wp[1]], [np.min(M)-10, -gpass, -gpass, np.min(M)-10], '0.5', lw=0) # pass
+    plt.fill([ws[1], ws[1],  w[-1], w[-1]], [np.max(M)+10, -gstop, -gstop, np.max(M)+10], '0.5', lw=0) # stop
+if type == 'bandstop':
+    plt.fill([w[0] ,  w[0],  wp[0], wp[0]], [np.min(M)-10, -gpass, -gpass, np.min(M)-10], '0.5', lw=0) # pass
+    plt.fill([ws[0], ws[0],  ws[1], ws[1]], [np.max(M)+10, -gstop, -gstop, np.max(M)+10], '0.5', lw=0) # stop
+    plt.fill([wp[1], wp[1],  w[-1], w[-1]], [np.min(M)-10, -gpass, -gpass, np.min(M)-10], '0.5', lw=0) # pass
+plt.axis([w[0],w[-1], np.min(M)-10, np.max(M)+10])
+plt.figure(figsize=[8,8])
+designFilter(charType =  'cheby2',type = 'low', wp = 3,ws = 8, gpass = 3, gstop = 80, w_min=2, w_max=2)
+
